@@ -1,5 +1,10 @@
 import Image from "next/image";
 
+export const metadata = {
+    title: "Blog",
+    description: "Read the blogs of HeroKidz"
+}
+
 export default function BlogPage() {
     return (
         <main className="max-w-5xl mx-auto px-4 py-10">

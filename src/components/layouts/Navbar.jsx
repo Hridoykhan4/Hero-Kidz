@@ -13,8 +13,8 @@ const NAV_ITEMS = [
 
 const Navbar = () => {
     return (
-        <header className="bg-base-100 shadow-sm sticky top-0 z-50">
-            <div className="navbar max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <header className="sticky md:w-11/12 mx-auto bg-base-100/80 backdrop-blur-lg glass top-0 z-50">
+            <div className="navbar">
                 {/* Navbar Start */}
                 <div className="navbar-start">
                     <div className="dropdown">
